@@ -30,6 +30,9 @@ label3.place(x=180, y=50)
 
 mybutton = Button(window, text="Sort List", command=selection_sort, bg="#ed2d34")
 mybutton.place(x=180, y=100)
+exit_button = Button(window, text="Exit Program", command=window.destroy, bg="#ed2d34")
+exit_button.place(x=280, y=100)
+
 
 
 window.mainloop()
